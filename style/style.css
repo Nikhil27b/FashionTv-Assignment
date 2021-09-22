@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* Fonts  */
+
+
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Home Section */
+
+.container {
+    position: relative;
+    height: 100vh;
+    z-index: 0;
+}
+
+.video-box video {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    z-index: 2;
+}
+
+.logo {
+    position: absolute;
+    z-index: 3;
+    left: 60px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.video-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    text-align: center;
+}
+
+.video-content h4 {
+    font-size: 22px;
+    word-spacing: 0.3em;
+    color: #f0bd6e;
+    letter-spacing: 4px;
+}
+
+.video-content h1 {
+    font-size: 84px;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.ft-logo-right {
+    position: absolute;
+    top: 10%;
+    z-index: 7;
+    right: 3%;
+}
+
+.ft-logo-left {
+    position: absolute;
+    top: 15%;
+    z-index: 7;
+    left: 3%;
+}
+
+
+/* Specfication Section */
+
+.specfication-banner {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    background-image: url("../assets/images/rustic-stone-texture-background_24972-1641.jpg");
+}
+
+.specfication-banner .title h1 {
+    text-align: center;
+    font-size: 54px;
+    color: #f0bd6e;
+    padding-top: 50px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+table {
+    margin: auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+    display: block;
+    width: fit-content;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, .1);
+}
+
+td,
+th {
+    border: none;
+    padding: 1rem;
+}
+
+th {
+    background-color: #110801;
+    padding: 10px 50px;
+    border: none;
+    color: #f0bd6e;
+}
+
+td {
+    padding: 10px 50px;
+    white-space: nowrap;
+    color: #c4a48f;
+    border-bottom: solid #F0BD79 1px;
+}
+
+td:first-of-type,
+th:first-of-type {
+    border-left: none;
+}
+
+td:last-of-type,
+th:last-of-type {
+    border-right: none;
+}
+
+.pre-req {
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    background-image: url("../assets/images/rustic-stone-texture-background_24972-1641.jpg");
+}
+
+.card_grid {
+    position: relative;
+    padding: 0 20px;
+    column-count: 3;
+    column-width: 200px;
+    column-gap: 10px;
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.card {
+    margin: auto 5px;
+    width: 100%;
+    margin-top: 50px 0;
+}
+
+.card h1 {
+    color: #f0bd6e;
+    font-size: 20px;
+}
+
+.card p {
+    color: #cabba6;
+    font-size: 16px;
+}
+
+.card img {
+    width: 400px;
+}
+
+.card h2 {
+    color: #f0bd6e;
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    top: 50%;
+    text-align: center;
+    font-size: 46px;
+    left: 50%;
+    letter-spacing: 2px;
+    transform: translate(-50%, -50%);
+}
+
+.card:nth-child(2) {
+    margin-top: 180px;
+}
+
+.card:nth-child(5) {
+    margin-top: 130px;
+}
+
+.footer-main {
+    min-height: 60vh;
+    background-color: #110801;
+    position: relative;
+}
+
+.footer-title h1 {
+    color: #f0bd6e;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 54px;
+    padding: 30px 0;
+}
+
+.footer-main input::placeholder {
+    color: #cabba6;
+}
+
+.footer-content input {
+    width: 400px;
+    outline: none;
+    padding: 12px 40px;
+    color: #cabba6;
+    transition: 0.5s ease-in-out;
+    border: none;
+    background-color: #31190c;
+}
+
+.footer-main-content {
+    display: grid;
+    place-content: center;
+}
+
+.footer-content {
+    position: relative;
+}
+
+.footer-content i {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #F0BD79;
+}
+
+.fa {
+    color: #110801;
+}
+
+.footer-content button {
+    position: absolute;
+    border: none;
+    height: 40px;
+    width: 100px;
+    background-color: #F0BD79;
+}
+
+.footer-main-content ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer-main-content ul li {
+    padding: 30px 50px;
+}
+
+.footer-main-content span {
+    padding-top: 30px;
+    color: #f0bd6e;
+}
+
+.footer-main-content ul li a {
+    color: #f0bd6e;
+    text-decoration: none;
+}
