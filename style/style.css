@@ -427,3 +427,119 @@ th:last-of-type {
     font-weight: 300;
     margin-top: 10px;
 }
+
+
+/* INTRO PAGE CSS STARTS HERE */
+
+#introducation {
+    position: relative;
+    min-height: 90vh;
+    background-image: url("../assets/images/rustic-stone-texture-background_24972-1641.jpg");
+}
+
+.intro-content {
+    padding-top: 50px;
+}
+
+.intro-title h1 {
+    font-size: 54px;
+    color: #f0bd6e;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+.intro-title h3 {
+    color: #ffffff;
+}
+
+.intro-content p {
+    padding: 10px 100px;
+    color: #C4A48F;
+    font-size: 16px;
+}
+
+#introducation .ft-logo-left {
+    top: 20%;
+}
+
+#introducation .ft-logo-left img,
+#introducation .ft-logo-right img {
+    height: 250px;
+}
+
+.intro-feature .cards {
+    padding: 20px 40px;
+}
+
+.intro-feature .cards img {
+    height: 450px;
+    background-size: contain;
+    width: 350px;
+}
+
+.intro-feature .cards-title h1 {
+    font-size: 54px;
+    color: #f0bd6e;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+.intro-feature .cards-content ul li {
+    color: #C4A48F;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.intro-feature .cards a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#intro-achiv {
+    padding: 40px 0;
+    background-image: url("../assets/images/rustic-stone-texture-background_24972-1641.jpg");
+}
+
+#intro-achiv .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#intro-achiv .feature-counts ul,
+.main-feature-counts ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro-achiv .feature-counts ul li,
+#intro-achiv .main-feature-counts ul li {
+    margin: 0 20px;
+    list-style: none;
+    text-align: center;
+}
+
+#intro-achiv .feature-counts ul li h1,
+#intro-achiv .main-feature-counts ul li h1,
+#intro-achiv .feature-title h1 {
+    font-size: 54px;
+    color: #f0bd6e;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+#intro-achiv .feature-counts ul li p,
+#intro-achiv .main-feature-counts ul li p {
+    color: #C4A48F;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#intro-achiv .feature-title p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+}

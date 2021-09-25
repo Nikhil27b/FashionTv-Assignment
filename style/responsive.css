@@ -100,4 +100,25 @@
     #nite-home .video-content span {
         font-size: 60px;
     }
+    /* Introducation Page Responsive */
+    .intro-content p {
+        padding: 10px;
+    }
+    #introducation .ft-logo-left,
+    #introducation .ft-logo-right {
+        display: none;
+    }
+    .intro-feature .cards img {
+        height: 400px;
+        width: 300px;
+        margin: 5px 0;
+    }
+    #intro-achiv .feature-counts ul,
+    .main-feature-counts ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .intro-feature .cards {
+        padding: 20px;
+    }
 }
