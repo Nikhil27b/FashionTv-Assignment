@@ -11,16 +11,21 @@ font-family: 'Roboto', sans-serif; */
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+}
+
+body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden !important;
+    background-color: #1D1007;
 }
 
 
 /* Home Section */
 
-.container {
+.container-fluid {
     position: relative;
-    height: 100vh;
     z-index: 0;
+    padding: 0 !important;
 }
 
 .video-box video {
@@ -48,7 +53,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .logo img {
-    width: 100px;
+    width: 90px;
 }
 
 .video-content {
@@ -75,7 +80,7 @@ font-family: 'Roboto', sans-serif; */
 
 .ft-logo-right {
     position: absolute;
-    top: 10%;
+    top: 40%;
     z-index: 7;
     right: 3%;
 }
@@ -92,6 +97,7 @@ font-family: 'Roboto', sans-serif; */
 
 .specfication-banner {
     position: relative;
+    margin-top: -5px;
     height: 70vh;
     width: 100%;
     background-image: url("../assets/images/rustic-stone-texture-background_24972-1641.jpg");
@@ -107,10 +113,12 @@ font-family: 'Roboto', sans-serif; */
 }
 
 table {
+    border-collapse: collapse;
+    overflow-x: auto;
+    display: block;
+    max-width: 100%;
     margin: auto;
     margin-top: 20px;
-    border-collapse: collapse;
-    display: block;
     width: fit-content;
     border-radius: 5px;
     box-shadow: 0 0 1px 1px rgba(0, 0, 0, .1);
@@ -210,6 +218,11 @@ th:last-of-type {
     position: relative;
 }
 
+.footer-main .ft-logo-right {
+    position: absolute;
+    top: 10%;
+}
+
 .footer-title h1 {
     color: #f0bd6e;
     text-align: center;
@@ -219,17 +232,18 @@ th:last-of-type {
 }
 
 .footer-main input::placeholder {
-    color: #cabba6;
+    color: #EFBD6D;
 }
 
 .footer-content input {
     width: 400px;
     outline: none;
     padding: 12px 40px;
-    color: #cabba6;
+    color: #EFBD6D;
+    border-radius: 2px;
     transition: 0.5s ease-in-out;
     border: none;
-    background-color: #31190c;
+    background-color: #311A0B;
 }
 
 .footer-main-content {
@@ -256,7 +270,8 @@ th:last-of-type {
     position: absolute;
     border: none;
     height: 40px;
-    width: 100px;
+    width: 90px;
+    border-radius: 1px;
     background-color: #F0BD79;
 }
 
@@ -266,7 +281,7 @@ th:last-of-type {
 }
 
 .footer-main-content ul li {
-    padding: 30px 50px;
+    padding: 33px;
 }
 
 .footer-main-content span {
@@ -277,4 +292,138 @@ th:last-of-type {
 .footer-main-content ul li a {
     color: #f0bd6e;
     text-decoration: none;
+    font-weight: 300;
+}
+
+
+/* NITES PAGE CSS STARTS HERE */
+
+#nite-home .video-content h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+#nite-home .video-content span {
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
+    color: #f0bd6e;
+}
+
+#nite-home .video-content {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    text-align: center;
+}
+
+
+/* NITES ABOUT PAGE CSS STARTS HERE */
+
+#chapmign-about {
+    background-image: url("../assets/images/rustic-stone-texture-background_24972-1641.jpg");
+}
+
+#chapmign-about .container-fluid {
+    min-height: 100vh;
+}
+
+.content-box {
+    height: 400px;
+    width: 1000px;
+    background-color: #311A0B;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-box img {
+    height: 450px;
+    width: 320px;
+}
+
+.content-box p {
+    color: #C4A48F;
+    font-size: 17px;
+    padding: 20px;
+    margin-left: 40px;
+    font-weight: 300;
+}
+
+#chapmign-about .ft-logo-left,
+#chapmign-about {
+    top: 30%;
+}
+
+#chapmign-about .ft-logo-left img,
+#chapmign-about .potential img {
+    height: 250px;
+}
+
+.potential h1 {
+    color: #f0bd6e;
+    font-size: 54px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.potential p {
+    color: #C4A48F;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.potential {
+    padding: 10px 0;
+    padding-bottom: 20px;
+}
+
+#banner-image img {
+    width: 1300px;
+    height: 700px;
+}
+
+#philosophy {
+    background-color: #1D1007;
+    min-height: 70vh;
+}
+
+#philosophy .main-title h1 {
+    color: #f0bd6e;
+    font-size: 64px;
+    font-family: 'Oswald', sans-serif;
+    transform: rotate(-90deg);
+    position: relative;
+}
+
+#philosophy .main-title h1::after {
+    position: absolute;
+    height: 400px;
+    width: 1px;
+    background-color: #EFBD6D;
+    content: "";
+    left: 150px;
+    top: -50px;
+    transform: rotate(90deg);
+}
+
+#philosophy .main-content {
+    margin-left: -100px;
+}
+
+#philosophy .main-content li {
+    color: #EFBD6D;
+    font-size: 22px;
+}
+
+#philosophy .main-content p {
+    color: #C4A48F;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
 }
