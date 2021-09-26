@@ -161,7 +161,6 @@ th:last-of-type {
 
 .pre-req {
     position: relative;
-    height: 60vh;
     width: 100%;
     background-image: url("../assets/images/rustic-stone-texture-background_24972-1641.jpg");
 }
@@ -177,31 +176,31 @@ th:last-of-type {
     margin: auto;
 }
 
-.card {
+.cards {
     margin: auto 5px;
     width: 100%;
     margin-top: 50px 0;
 }
 
-.card h1 {
+.cards h1 {
     color: #f0bd6e;
     font-size: 20px;
 }
 
-.card p {
+.cards p {
     color: #cabba6;
     font-size: 16px;
 }
 
-.card img {
-    width: 400px;
+.cards img {
+    width: 450px;
 }
 
-.card h2 {
+.cards h2 {
     color: #f0bd6e;
     position: absolute;
     font-family: 'Oswald', sans-serif;
-    top: 50%;
+    top: 45%;
     text-align: center;
     font-size: 46px;
     left: 50%;
@@ -209,12 +208,31 @@ th:last-of-type {
     transform: translate(-50%, -50%);
 }
 
-.card:nth-child(2) {
+.cards:nth-child(2) {
     margin-top: 180px;
 }
 
-.card:nth-child(5) {
+.cards:nth-child(5) {
     margin-top: 130px;
+}
+
+#brandsupport {
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    place-items: center;
+    background-image: url("../assets/images/brandbg.png");
+}
+
+#brandsupport img {
+    width: 400px;
+}
+
+#brandsupport p {
+    color: #EBD0BF;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
 }
 
 .footer-main {
@@ -267,13 +285,18 @@ th:last-of-type {
 }
 
 .fa {
-    color: #110801;
+    color: #F0BD79;
+    font-size: 20px !important;
+}
+
+.footer-content .fa {
+    color: #110801 !important;
 }
 
 .footer-content button {
     position: absolute;
     border: none;
-    height: 40px;
+    height: 47px;
     width: 90px;
     border-radius: 1px;
     background-color: #F0BD79;
@@ -745,4 +768,63 @@ th:last-of-type {
     width: 20px;
     transform: translateX(-50%);
     border-radius: 50px;
+}
+
+
+/* Kashiff Page Started */
+
+#kashiffintro .intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 50px;
+    background-image: url("../assets/images/rustic-stone-texture-background_24972-1641.jpg");
+}
+
+#kashiffintro .intro-container .michtel-intro-card img {
+    width: 500px;
+}
+
+#kashiffintro .intro-container .kashiff-intro-content h1,
+#kashiff-background .bg-content h1,
+#kashiff-journey .journey-content h1 {
+    font-size: 54px;
+    color: #f0bd6e;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+#kashiffintro .intro-container .kashiff-intro-content p,
+#kashiff-background .bg-content {
+    color: #C4A48F;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 20px 0;
+}
+
+#kashiff-background .bg-content {
+    padding: 50px;
+}
+
+.kashiff-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 20px;
+    padding-bottom: 50px;
+}
+
+.kashiff-features h3 {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.kashiff-features p {
+    color: #C4A48F;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+#kashiff-journey {
+    padding: 40px 0;
+    background-image: url("../assets/images/rustic-stone-texture-background_24972-1641.jpg");
 }

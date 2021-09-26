@@ -6,19 +6,19 @@
     .specfication-banner .title h1 {
         font-size: 44px;
     }
-    .pre-req {
-        height: 130vh;
-    }
-    .card:nth-child(2) {
+    .cards:nth-child(2) {
         margin-top: 0px;
     }
-    .card:nth-child(5) {
+    .cards:nth-child(5) {
         margin-top: 0px;
     }
-    .card {
+    .cards {
         margin: 30px 0;
     }
-    .card img {
+    .cards img {
+        width: 300px;
+    }
+    #brandsupport img {
         width: 300px;
     }
     .footer-title h1 {
@@ -51,7 +51,7 @@
         padding-top: 1px;
     }
     .footer-content button {
-        height: 40px;
+        height: 47px;
         width: 60px;
     }
     /* NITEPAGE RESPONSIVE WEBSITE */
@@ -89,7 +89,7 @@
     }
     #philosophy .main-title h1 {
         font-size: 44px;
-        transform: rotate( 0deg);
+        transform: rotate(0deg);
     }
     #philosophy .main-title h1::after {
         display: none;
@@ -133,22 +133,32 @@
     #shows-introducation .intro-title h3 {
         font-size: 24px;
     }
-    .intro-title h1 {
+    /* Michel & Kashiff Page Responsive */
+    .intro-title h1,
+    #kashiffintro .intro-container .kashiff-intro-content h1,
+    #kashiff-background .bg-content h1,
+    #kashiff-journey .journey-content h1 {
         font-size: 46px;
     }
-    /* Michel Page Responsive */
-    #michelintro .intro-container {
+    #michelintro .intro-container,
+    #kashiffintro .intro-container {
         flex-direction: column-reverse;
+        padding: 20px;
     }
-    #michelintro .intro-container .michtel-intro-card img {
+    #michelintro .intro-container .michtel-intro-card img,
+    #kashiffintro .intro-container .michtel-intro-card img {
         width: 350px;
     }
     #michel-background .bg-content,
-    #michel-future .future-bg-content {
+    #michel-future .future-bg-content,
+    #kashiff-background .bg-content {
         padding: 20px;
     }
     .michel-cards {
         width: 100%;
+    }
+    .kashiff-feature {
+        grid-template-columns: 1fr;
     }
     /* Journay Responsive */
     .timeline::before {
@@ -175,7 +185,7 @@
     .left .timearrow,
     .right .timearrow {
         border-right-width: 0;
-        border-left: 20px solid #ddd;
+        border-left: 20px solid #110802;
         right: 20px;
         left: initial;
     }
