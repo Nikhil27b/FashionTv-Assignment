@@ -105,12 +105,14 @@
         padding: 10px;
     }
     #introducation .ft-logo-left,
-    #introducation .ft-logo-right {
+    #introducation .ft-logo-right,
+    #shows-introducation .ft-logo-left,
+    #shows-introducation .ft-logo-right {
         display: none;
     }
     .intro-feature .cards img {
-        height: 400px;
-        width: 300px;
+        height: 350px;
+        width: 260px;
         margin: 5px 0;
     }
     #intro-achiv .feature-counts ul,
@@ -120,5 +122,61 @@
     }
     .intro-feature .cards {
         padding: 20px;
+    }
+    /* SHOWS SECTION STARTS */
+    #shows-introducation .intro-content {
+        padding: 20px;
+    }
+    #shows-introducation .intro-content p {
+        padding: 0;
+    }
+    #shows-introducation .intro-title h3 {
+        font-size: 24px;
+    }
+    .intro-title h1 {
+        font-size: 46px;
+    }
+    /* Michel Page Responsive */
+    #michelintro .intro-container {
+        flex-direction: column-reverse;
+    }
+    #michelintro .intro-container .michtel-intro-card img {
+        width: 350px;
+    }
+    #michel-background .bg-content,
+    #michel-future .future-bg-content {
+        padding: 20px;
+    }
+    .michel-cards {
+        width: 100%;
+    }
+    /* Journay Responsive */
+    .timeline::before {
+        left: initial;
+        right: 9px;
+        transform: none;
+    }
+    .timecontent {
+        width: calc(100% - 35px);
+        min-height: 4em;
+    }
+    .timerow {
+        height: initial;
+    }
+    [data-time]::before {
+        transform: none;
+        left: initial;
+        right: 1px;
+    }
+    .timerow.left .timecontent,
+    .timerow.right .timecontent {
+        float: none;
+    }
+    .left .timearrow,
+    .right .timearrow {
+        border-right-width: 0;
+        border-left: 20px solid #ddd;
+        right: 20px;
+        left: initial;
     }
 }

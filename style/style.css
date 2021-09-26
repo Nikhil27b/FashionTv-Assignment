@@ -85,6 +85,11 @@ body {
     right: 3%;
 }
 
+.ft-logo-right img,
+.ft-logo-left img {
+    height: 250px;
+}
+
 .ft-logo-left {
     position: absolute;
     top: 15%;
@@ -213,7 +218,6 @@ th:last-of-type {
 }
 
 .footer-main {
-    min-height: 60vh;
     background-color: #110801;
     position: relative;
 }
@@ -542,4 +546,203 @@ th:last-of-type {
     color: #ffffff;
     font-size: 16px;
     font-weight: 300;
+}
+
+
+/* SHOWS PAGE CSS STARTS HERE */
+
+#shows-introducation {
+    position: relative;
+    background-image: url("../assets/images/rustic-stone-texture-background_24972-1641.jpg");
+}
+
+#shows-introducation .ft-logo-left {
+    top: 20%;
+}
+
+#shows-introducation .ft-logo-left img,
+#shows-introducation .ft-logo-right img {
+    height: 250px;
+}
+
+#shows-introducation .intro-content p {
+    padding: 20px 180px;
+}
+
+#shows-introduction-feature .cards-title h1 {
+    padding: 20px 0;
+}
+
+#shows-introduction-feature .cards-content p {
+    color: #C4A48F;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 20px 0;
+}
+
+
+/* Michel Adam Page Started */
+
+#michelintro .intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 50px;
+    background-image: url("../assets/images/rustic-stone-texture-background_24972-1641.jpg");
+}
+
+#michelintro .intro-container .michtel-intro-card img {
+    width: 500px;
+}
+
+#michelintro .intro-container .michel-intro-content h1,
+#michel-background .bg-content h1,
+#michel-journey .journey-content h1,
+#michel-future .future-bg-content h1 {
+    font-size: 54px;
+    color: #f0bd6e;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+#michelintro .intro-container .michel-intro-content p,
+#michel-background .bg-content,
+#michel-future .future-bg-content p {
+    color: #C4A48F;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 20px 0;
+}
+
+#michel-background .bg-content,
+#michel-future .future-bg-content {
+    padding: 50px;
+}
+
+#michel-journey {
+    padding: 40px 0;
+    background-image: url("../assets/images/rustic-stone-texture-background_24972-1641.jpg");
+}
+
+
+/* Michel Future | Jourey CSS */
+
+#michel-future {
+    display: grid;
+    place-items: center;
+}
+
+.michel-cards {
+    width: 400px;
+    height: 350px;
+    display: grid;
+    place-items: center;
+    background-color: #110802;
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.michel-cards h1 {
+    color: #F2E4DB;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.michel-cards p {
+    color: #C4A48F;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 20px;
+    font-style: italic;
+}
+
+.michel-cards .micelimg {
+    height: 60px;
+    margin-top: -10px;
+}
+
+
+/* Michel Timeline | Jourey CSS */
+
+.timeline {
+    display: block;
+    max-width: 800px;
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    border-right: 2px solid #EFBD6D;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.timerow {
+    height: 4em;
+    margin: 100px 0;
+    position: relative;
+}
+
+.timecontent {
+    width: calc(50% - 30px);
+    min-height: 100%;
+    text-align: justify;
+    background-color: #110802;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #C4A48F;
+    font-size: 14px;
+}
+
+.timerow.right .timecontent {
+    float: right;
+}
+
+.timerow.left .timecontent {
+    float: left;
+}
+
+.timearrow {
+    position: absolute;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border-top: 10px transparent solid;
+    border-bottom: 10px transparent solid;
+}
+
+.left .timearrow {
+    border-left: 20px solid #110802;
+    left: calc(50% - 35px);
+}
+
+.right .timearrow {
+    border-right: 20px solid #110802;
+    right: calc(50% - 35px);
+}
+
+[data-time]::before {
+    content: "";
+    position: absolute;
+    top: calc(20px + 0.1em);
+    left: 50%;
+    background-color: #FFFFFF;
+    border: 2px #EFBD6D solid;
+    height: 20px;
+    width: 20px;
+    transform: translateX(-50%);
+    border-radius: 50px;
 }
