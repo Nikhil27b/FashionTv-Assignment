@@ -17,6 +17,7 @@ body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden !important;
     background-color: #1D1007;
+    line-height: 1.8;
 }
 
 
@@ -75,6 +76,7 @@ body {
 .video-content h1 {
     font-size: 84px;
     color: #ffffff;
+    text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -321,6 +323,119 @@ th:last-of-type {
     color: #f0bd6e;
     text-decoration: none;
     font-weight: 300;
+}
+
+
+/* Features Page Started Here */
+
+#featuressupport {
+    background-image: url("../assets/images/featuresbg.png");
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+}
+
+#featuressupport p {
+    color: #C4A48F;
+    font-size: 17px;
+    margin-left: 0;
+    text-align: center;
+    font-weight: 300;
+    padding: 30px 150px;
+    margin-top: -150px;
+}
+
+#featuressupport h1 {
+    font-size: 74px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#featuressupport span {
+    color: #f0bd6e;
+}
+
+#featurevideo {
+    height: 100%;
+    display: grid;
+    place-items: center;
+    height: 70vh;
+}
+
+#featurevideo .video-source img {
+    height: 420px;
+    transform: translateY(-60px);
+}
+
+#exelusivity {
+    padding: 70px 0;
+}
+
+#exelusivity .exeimage img {
+    height: 420px;
+}
+
+#exelusivity .execontent img {
+    width: 700px;
+    height: 400px;
+}
+
+#exelusivity .execontent p {
+    color: #C4A48F;
+    font-size: 17px;
+    padding: 20px 0;
+    margin-left: 0;
+    font-weight: 300;
+}
+
+#featureinfo .container {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 80px;
+}
+
+#featureinfo .featureinfo-content img {
+    width: 750px;
+}
+
+#featureinfo .featureinfo-content p {
+    color: #C4A48F;
+    font-size: 17px;
+    margin-left: 0;
+    font-weight: 300;
+    width: 480px;
+}
+
+#featureinfo .featureinfo-image img {
+    transform: translateX(-200px);
+    height: 250px;
+}
+
+#verscelb-container {
+    padding: 100px 0;
+    background-image: url("../assets/images/rustic-stone-texture-background_24972-1641.jpg");
+}
+
+#verscelb-container .container .cardsz h1 {
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #F0BD79;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+#verscelb-container .container .cardsz p {
+    color: #C4A48F;
+    font-size: 17px;
+    margin-left: 0;
+    font-weight: 300;
+    width: 800px;
 }
 
 
