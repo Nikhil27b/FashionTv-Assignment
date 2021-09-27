@@ -1,3 +1,13 @@
+@media only screen and (max-height:1024px) {
+    #home-chapmign-about .container-fluid {
+        min-height: 60vh;
+    }
+    #home-chapmign-about .content-box {
+        height: 400px;
+        width: 750px;
+    }
+}
+
 @media only screen and (max-width: 749px) {
     /* HOME PAGE RESPONSIVE WEBSITE  */
     .video-content h1 {
@@ -190,6 +200,9 @@
         left: initial;
     }
     /* Main Page CSS */
+    #home-chapmign-about .container-fluid {
+        min-height: 120vh;
+    }
     #home-chapmign-about .content-box .content-img img {
         width: 400px;
         padding: 0;
@@ -221,11 +234,52 @@
         transform: translateX(0px);
     }
     #versatility-container .container .img-content img {
-        height: 250px;
+        height: 220px;
     }
     #versatility-container .container .text-content {
         background-color: #1D1007;
         transform: translate(0px, 0px);
         padding: 20px;
+    }
+    /* Features CSS Section */
+    #featuressupport h1 {
+        font-size: 44px;
+    }
+    #featuressupport p {
+        padding: 30px 5px;
+    }
+    #featurevideo .video-source img {
+        height: 320px;
+        width: 100%;
+        transform: translateY(0px);
+    }
+    #exelusivity {
+        padding: 0;
+    }
+    #exelusivity .execontent img {
+        width: 100%;
+        height: 250px;
+    }
+    #featureinfo .container {
+        padding-bottom: 0;
+        flex-direction: column;
+    }
+    #featureinfo .featureinfo-content p {
+        width: 100%;
+    }
+    #featureinfo .featureinfo-content img {
+        width: 100%;
+    }
+    .featureinfo-image {
+        display: none;
+    }
+    #verscelb-container .container .cardsz p {
+        width: 100%;
+    }
+    #verscelb-container .cardz img {
+        width: 100%;
+    }
+    #featurevideo {
+        height: 100%;
     }
 }
