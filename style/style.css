@@ -305,6 +305,7 @@ th:last-of-type {
 .footer-main-content ul {
     display: flex;
     list-style: none;
+    justify-content: center;
 }
 
 .footer-main-content ul li {
@@ -347,12 +348,99 @@ th:last-of-type {
 }
 
 
+/* Main Home Page CSS */
+
+#home-chapmign-about .content-img {
+    margin-top: 50px;
+}
+
+#home-chapmign-about .content-box img {
+    height: 450px;
+    width: 450px;
+}
+
+#home-chapmign-about {
+    background-image: url("../assets/images/rustic-stone-texture-background_24972-1641.jpg");
+}
+
+#home-chapmign-about .content-box {
+    height: 400px;
+    width: 1000px;
+    background-color: #311A0B;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#home-chapmign-about .content-box p,
+#video-container .video-title p,
+#versatility-container .container .text-content p {
+    color: #C4A48F;
+    font-size: 17px;
+    padding: 10px;
+    margin-left: 0;
+    font-weight: 300;
+}
+
+#video-container .container {
+    padding: 40px 20px;
+    transform: translateY(-50px);
+    background-image: url("../assets/images/rustic-stone-texture-background_24972-1641.jpg");
+}
+
+#video-container .video-title h1 {
+    font-size: 54px;
+    color: #f0bd6e;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+#video-container .video-source img {
+    height: 400px;
+    width: 100%;
+    padding: 10px 100px;
+    margin-bottom: 20px;
+}
+
+#versatility-container .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px;
+    border: 3px solid #F0BD79;
+    transform: translateX(70px);
+    margin-bottom: 80px;
+}
+
+#versatility-container .container .text-content {
+    background-color: #1D1007;
+    transform: translate(-100px, -50px);
+    padding: 20px 60px;
+}
+
+#versatility-container .container .text-content h1 {
+    font-size: 54px;
+    color: #f0bd6e;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+#versatility-container .container .img-content img {
+    height: 400px;
+}
+
+
 /* NITES ABOUT PAGE CSS STARTS HERE */
 
 #chapmign-about {
     background-image: url("../assets/images/rustic-stone-texture-background_24972-1641.jpg");
 }
 
+#home-chapmign-about .container-fluid,
 #chapmign-about .container-fluid {
     min-height: 100vh;
 }
@@ -393,21 +481,35 @@ th:last-of-type {
     height: 250px;
 }
 
-.potential h1 {
+.potential h1,
+.exclusive h1 {
     color: #f0bd6e;
     font-size: 54px;
     font-family: 'Oswald', sans-serif;
 }
 
-.potential p {
+.potential p,
+.exclusive p {
     color: #C4A48F;
     font-size: 17px;
     font-weight: 300;
 }
 
-.potential {
+.potential,
+.exclusive {
     padding: 10px 0;
-    padding-bottom: 20px;
+}
+
+.exclusive {
+    padding: 20px 40px;
+    background-size: contain;
+    background-image: url("../assets/images/excslive.png");
+}
+
+#bigbanner {
+    background-image: url("../assets/images/bigbanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #banner-image img {
