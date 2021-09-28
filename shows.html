@@ -14,13 +14,41 @@
 <body>
     <!-- Home section -->
     <div id="shows-home">
+
+        <div id="navbar">
+            <div class="navbar_button">
+                <span id="bar1" class="bar"></span>
+                <span id="bar2" class="bar"></span>
+                <span id="bar2b" class="bar"></span>
+                <span id="bar3" class="bar"></span>
+            </div>
+            <div class="round_nav">
+            </div>
+            <div class="nav_content">
+                <ul>
+                    <li> <a href="./home.html">Home</a> </li>
+                    <li> <a href="./micheladam.html">Michel Adam</a> </li>
+                    <li> <a href="./kashiffkhan.html">Kashiff Khan</a></li>
+                    <li>
+                        <a href="./franchise.html">Fashion TV</a> </li>
+                    <li><a href="./shows.html">Channels</a></li>
+                    <li><a href="./nites.html">FTV Champagne NITES</a></li>
+                    <li><a href="./features.html">FTV Champagne Features</a></li>
+                    <li><a href="./introducation.html">Introduction</a></li>
+
+                </ul>
+            </div>
+
+        </div>
         <div class="logo">
             <img src="./assets/images/Group 578.png" alt="" srcset="" />
         </div>
         <div class="container-fluid">
             <div class="video-overlay"></div>
             <div class="video-box">
-                <video src="./assets/INTRO-FTV EVENTS.mp4" muted autoplay loop></video>
+                <video id="vid" loop muted autoplay>
+                    <source id="shvid" src="./assets/videos/channel/12+ webside.mp4" type="video/mp4">
+                  </video>
             </div>
 
             <div class="ft-logo-right">
@@ -53,11 +81,11 @@
         </div>
     </div>
 
-    <!-- Intro Features section -->
+    <!-- Shows Introduction section -->
 
     <div id="shows-introduction-feature">
         <div class="intro-feature">
-            <div class="cards">
+            <div class="intro-cards">
                 <div class="row">
                     <div class="col-lg-7 col-sm-12 col-12">
                         <div class="cards-title">
@@ -74,7 +102,7 @@
                     </div>
                 </div>
             </div>
-            <div class="cards">
+            <div class="intro-cards">
                 <div class="row">
                     <div class="col-lg-5 col-sm-12 col-12">
                         <img src="./assets/images/milstone.png" alt="" srcset="" />
@@ -96,6 +124,47 @@
         </div>
     </div>
 
+    <!-- Shows Introduction Mobile section -->
+    <div id="mobile-shows-introduction-feature">
+        <div class="intro-feature">
+            <div class="intro-cards">
+                <div class="row">
+                    <div class="col-sm-12 col-12">
+                        <div class="cards-title">
+                            <h1>MIDNIGHT SECRETS</h1>
+                        </div>
+                        <img src="./assets/images/keyfact.png" alt="" srcset="" />
+
+                        <div class="cards-content">
+                            <p>Witness the world of sensuality and seduction on Midnight Secrets channel, where beautiful women take you on the journey of sensuality and luxury. With Midnight Secrets, you get to peek inside the sexiest shows, and photoshoots
+                                of lingerie, swimwear, beachwear, sexy calendar shoots starring the sultriest and hottest models from the fashion industry. <br> <br> Watch the Midnight Secrets shows 24x7 available on our TV Network. You can also access
+                                the channel ‘on-demand’ with our VOD service any time you want.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="intro-cards">
+                <div class="row">
+
+                    <div class="col-sm-12 col-12">
+                        <div class="cards-title">
+                            <h1>F-MEN</h1>
+                        </div>
+                        <img src="./assets/images/milstone.png" alt="" srcset="" />
+
+                        <div class="cards-content">
+                            <p> Fashion has always been an integral part of men’s lifestyle. Right from the grooming, clothing, fitness, diet, health to making a career in the fashion and entertainment industry, every aspect is interestingly presented by
+                                FashionTV on F-Men channel. F-Men is our premium channel made exclusively for men. With F-Men you can get access to the amazing shows related to men's Fashion, Beauty, Fitness, Style, Grooming, Clothing, Men's Accessories,
+                                and everything that revolves around the lives of men.
+                                <br> <br> F-Men gives you access to watch the shows 24x7 on our FashionTV+ platform. The best part is that you can also access the channel ‘on-demand’ and on the go with our amazing VOD services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 
     <!-- Intro Footer Started -->
@@ -118,6 +187,12 @@
                     <span>|</span>
                     <li><a href="">Terms & Conditions</a></li>
                 </ul>
+                <ul>
+                    <li> <i class="fa fa-facebook"></i></li>
+                    <li> <i class="fa fa-instagram"></i></li>
+                    <li> <i class="fa fa-twitter"></i></li>
+                </ul>
+
             </div>
             <div class="ft-logo-right">
                 <img src="./assets/images/Group 567.png" alt="" />
@@ -130,6 +205,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
