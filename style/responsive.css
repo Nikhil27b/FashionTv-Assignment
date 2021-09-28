@@ -52,7 +52,7 @@
             padding-top: 1px;
         }
         .footer-content button {
-            height: 47px;
+            height: 53px;
             width: 60px;
         }
         /* NITEPAGE RESPONSIVE WEBSITE */
@@ -187,10 +187,11 @@
         }
         /* Main Page CSS */
         #home-chapmign-about .container-fluid {
-            min-height: 120vh;
+            min-height: 125vh;
         }
         #home-chapmign-about .content-box .content-img img {
-            width: 400px;
+            height: 380px;
+            width: 360px;
             padding: 0;
         }
         #home-chapmign-about .ft-logo-left {
@@ -262,9 +263,6 @@
         #verscelb-container .container .cardsz p {
             width: 100%;
         }
-        #verscelb-container .cardz img {
-            width: 100%;
-        }
         #featurevideo {
             height: 100%;
         }
@@ -313,7 +311,7 @@
             background-image: none;
             background-color: #110801;
         }
-        #verscelb-container .cardsz img {
-            width: 350px;
+        #verscelb-container .container img {
+            width: 330px;
         }
     }
