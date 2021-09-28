@@ -15,14 +15,40 @@
 
 <body>
     <!-- Home section -->
+    <div id="navbar">
+        <div class="navbar_button">
+            <span id="bar1" class="bar"></span>
+            <span id="bar2" class="bar"></span>
+            <span id="bar2b" class="bar"></span>
+            <span id="bar3" class="bar"></span>
+        </div>
+        <div class="round_nav">
+        </div>
+        <div class="nav_content">
+            <ul>
+                <li> <a href="./home.html">Home</a> </li>
+                <li> <a href="./micheladam.html">Michel Adam</a> </li>
+                <li> <a href="./kashiffkhan.html">Kashiff Khan</a></li>
+                <li>
+                    <a href="./franchise.html">Fashion TV</a> </li>
+                <li><a href="./shows.html">Channels</a></li>
+                <li><a href="./nites.html">FTV Champagne NITES</a></li>
+                <li><a href="./features.html">FTV Champagne Features</a></li>
+                <li><a href="./introducation.html">Introduction</a></li>
 
+            </ul>
+        </div>
+
+    </div>
     <div class="logo">
         <img src="./assets/images/Group 578.png" alt="" srcset="" />
     </div>
     <div class="container-fluid">
         <div class="video-overlay"></div>
         <div class="video-box">
-            <video src="./assets/INTRO-FTV EVENTS.mp4" muted autoplay loop></video>
+            <video id="vid" loop muted autoplay>
+                <source id="frvid" src="./assets/videos/franchies/Champagne franchies Hoame Page.mp4" type="video/mp4">
+              </video>
         </div>
         <div class="video-content">
             <h4>INTRODUCING</h4>
@@ -76,6 +102,76 @@
                     </tbody>
                 </table>
             </div>
+
+            <div class="mobile-table">
+                <div class="row">
+                    <div class="column">
+                        <h3>Franchising Fee</h3>
+                        <table>
+                            <tr>
+                                <th>Module 1</th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td class="cat">Category A</td>
+                                <td>1,12,50,000</td>
+                            </tr>
+                            <tr>
+                                <td class="cat">Category B</td>
+                                <td>75,00,000</td>
+                            </tr>
+                            <tr>
+                                <td class="cat">Category C</td>
+                                <td>37,50,000</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="column">
+                        <h3>Investor Holding Capacity</h3>
+                        <table>
+                            <tr>
+                                <th>Module 2</th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td class="cat">Category A</td>
+                                <td>5000000</td>
+                            </tr>
+                            <tr>
+                                <td class="cat">Category B</td>
+                                <td>40,00,000 </td>
+                            </tr>
+                            <tr>
+                                <td class="cat">Category C</td>
+                                <td>2000000</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="column">
+                        <h3>Royalty %</h3>
+                        <table>
+                            <tr>
+                                <th>Module 3</th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td class="cat">Category A</td>
+                                <td>10%</td>
+                            </tr>
+                            <tr>
+                                <td class="cat">Category B</td>
+                                <td>10%</td>
+                            </tr>
+                            <tr>
+                                <td class="cat">Category C</td>
+                                <td>10%</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
         <div class="pre-req">
             <div class="card_grid">
@@ -109,6 +205,8 @@
             </div>
         </div>
     </div>
+
+
 
     <!-- Brand and Support -->
     <div id="brandsupport">
@@ -154,6 +252,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+
 </body>
 
 </html>
