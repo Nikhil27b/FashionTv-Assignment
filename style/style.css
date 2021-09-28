@@ -20,6 +20,10 @@ body {
     line-height: 1.8;
 }
 
+section {
+    padding: 40px;
+}
+
 
 /* Home Section */
 
@@ -674,7 +678,7 @@ th:last-of-type {
 
 #introducation {
     position: relative;
-    min-height: 90vh;
+    min-height: 70vh;
     background-image: url("../assets/images/rustic-stone-texture-background_24972-1641.jpg");
 }
 
@@ -1217,4 +1221,13 @@ th:last-of-type {
 
 #specification .mobile-table {
     display: none;
+}
+
+#introduction-feature .intro-feature .cards {
+    padding: 20px;
+}
+
+#introduction-feature .cards:nth-child(2),
+#introduction-feature .cards:nth-child(5) {
+    margin-top: 0px;
 }
