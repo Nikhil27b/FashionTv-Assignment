@@ -214,8 +214,7 @@
         display: none;
     }
     .intro-feature .cards img {
-        height: 350px;
-        width: 260px;
+        width: 100%;
         margin: 5px 0;
     }
     #intro-achiv .feature-counts ul,
@@ -418,5 +417,16 @@
     }
     section {
         padding: 0px;
+    }
+    .intro-cards video {
+        height: 360px;
+        width: 100%;
+    }
+    .video-source video {
+        width: 100%;
+    }
+    .mobile-table .row {
+        margin-right: 0px;
+        margin-left: 0px;
     }
 }
