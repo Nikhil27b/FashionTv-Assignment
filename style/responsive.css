@@ -291,9 +291,10 @@
         min-height: 125vh;
     }
     #home-chapmign-about .content-box .content-img img {
-        height: 380px;
-        width: 360px;
+        width: 350px;
         padding: 0;
+        height: 100%;
+
     }
     #home-chapmign-about .ft-logo-left {
         display: none;
@@ -430,4 +431,5 @@
         margin-left: 0px;
     }
 }
+
 
